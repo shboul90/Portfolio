@@ -1,0 +1,234 @@
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.intro {
+    background-image: url("img/SimBackF.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 750px;
+}
+
+.fullnamecontainer {
+    position: relative;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#fullname .nameplate {
+    overflow: hidden;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 5px 0 20px;
+}
+#fullname .subnameplate{
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 1em;
+    color: rgb(0, 81, 255);
+    text-shadow: #000000 5px 0 20px;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    background-image: url("img/bg-light.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.aboutmeblock {
+    max-width: 80%;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.aboutmeblock h2 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+}
+
+.about-content div{
+    display: inline-block;
+}
+
+.right {
+    width: 30%;
+}
+
+.right a {
+    display: inline-block;
+    background: rgb(20, 23, 220);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.text {
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+}
+
+.left {
+    width: 30%;
+}
+.projectscontainer {
+    background-image: url("img/SimBack.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 750px;
+    color: white;
+}
+.projectscontainer h2{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 3em;
+    margin-top: 5%;
+}
+
+.projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 8%;
+}
+
+.projects-content .block {
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1% 1%;
+    margin-bottom: 1%;
+    height: 30%;
+    width: 20%;
+    cursor: pointer;
+}
+.projects-content .block .box {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.projects-content .block .box .text{
+    padding-left: 5%;
+    color: white;
+}
+.projects-content .block .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    padding-left: 5%;
+}
+.contactblock {
+    height: 500px;
+}
+.contacttitle {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 2em;
+    margin-top: 10%;
+}
+
+.contactform {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1% 1%;
+}
+.contacttitle hr{
+    width: 20%;
+    height: 1px;
+    background-color: rgb(5, 5, 5);
+}
+
+.row {
+    padding-bottom: 10px;
+}
+.contactinfo {
+    padding-bottom: 10px;
+}
+.name {
+    width: 20%;
+    font-size: 1em;
+    margin-right: 1em;
+    text-align: center;
+}
+.phone {
+    width: 20%;
+    font-size: 1em;
+    text-align: center;
+}
+.subject {
+    width: 20%;
+    font-size: 1em;
+    margin-right: 1em;
+    text-align: center;
+}
+.email {
+    width: 20%;
+    font-size: 1em;
+    text-align: center;
+}
+.message {
+    width: 40%;
+    font-size: 1.2em;
+    height: 5em;
+    text-align: center;
+}
+.sub :hover{
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
